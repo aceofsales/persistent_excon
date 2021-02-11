@@ -7,11 +7,11 @@ Gem::Specification.new do |spec|
   spec.name          = "persistent_excon"
   spec.version       = PersistentExcon::VERSION
   spec.authors       = ["Ryan Schlesinger"]
-  spec.email         = ["ryan@aceofsales.com"]
+  spec.email         = ["ryan@outstand.com"]
 
   spec.summary       = %q{Persistent connections with excon}
   spec.description   = %q{Adds configurable connection pools per host for persistent http connections}
-  spec.homepage      = "https://github.com/aceofsales/persistent_excon"
+  spec.homepage      = "https://github.com/outstand/persistent_excon"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "connection_pool"
   spec.add_dependency "thread_safe"
 
-  spec.add_development_dependency "bundler", "~> 1.10"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "bundler", "~> 2.2"
+  spec.add_development_dependency "rake", "~> 13"
   spec.add_development_dependency "rspec"
 end

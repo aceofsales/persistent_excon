@@ -1,6 +1,6 @@
 # PersistentExcon
 
-Squatting in this namespace for a future refactor of https://github.com/aceofsales/faraday_persistent_excon to remove the faraday bits.
+Squatting in this namespace for a future refactor of https://github.com/outstand/faraday_persistent_excon to remove the faraday bits.
 
 ## Installation
 
@@ -30,5 +30,5 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/aceofsales/persistent_excon.
+Bug reports and pull requests are welcome on GitHub at https://github.com/outstand/persistent_excon.
 
